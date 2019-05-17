@@ -1,0 +1,21 @@
+server:
+  port: 9999
+
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: password
+    timeout: 10000
+    block-when-exhausted: true
+    jedis:
+      pool:
+        max-active: 1024
+        max-wait: 10000
+        max-idle: 200
+        min-idle: 0

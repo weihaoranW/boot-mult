@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/boot-mult.iml" filepath="$PROJECT_DIR$/.idea/boot-mult.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-rabbit/boot-rabbit.iml" filepath="$PROJECT_DIR$/boot-rabbit/boot-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-redis/boot-redis.iml" filepath="$PROJECT_DIR$/boot-redis/boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-redis-mq/boot-redis-mq.iml" filepath="$PROJECT_DIR$/boot-redis-mq/boot-redis-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-temp/boot-temp.iml" filepath="$PROJECT_DIR$/boot-temp/boot-temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" />
+    </modules>
+  </component>
+</project>
