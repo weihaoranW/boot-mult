@@ -10,11 +10,6 @@
         <module name="boot-redis" />
         <module name="boot-redis-mq" />
         <module name="boot-temp" />
-      </profile>
-      <profile name="Annotation profile for boot-mult" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="springboot-jwt" />
       </profile>
     </annotationProcessing>
@@ -24,7 +19,7 @@
       <module name="boot-redis" target="1.8" />
       <module name="boot-redis-mq" target="1.8" />
       <module name="boot-temp" target="1.8" />
-      <module name="springboot-jwt" target="1.5" />
+      <module name="springboot-jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

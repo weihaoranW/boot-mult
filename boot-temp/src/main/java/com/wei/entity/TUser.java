@@ -5,14 +5,6 @@ import com.baomidou.mybatisplus.annotation.TableId;
 
 import java.io.Serializable;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author handsomeCcg
- * @since 2018-12-11
- */
 public class TUser implements Serializable {
 
 private static final long serialVersionUID = 1L;

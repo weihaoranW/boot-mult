@@ -1,8 +1,6 @@
 package com.wei.filter;
 
-import com.wei.service.ITUserService;
 import jdk.nashorn.internal.runtime.logging.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 
 import javax.servlet.Filter;

@@ -1,23 +1,25 @@
 package com.wei.controller;
 
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.wei.entity.TUser;
-import com.wei.entity.User;
 import com.wei.service.ITUserService;
 import com.wei.util.RestResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import jdk.nashorn.internal.runtime.logging.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Map;
 
 @Api(description = "user表有关信息接口")
 @RestController
-@Logger
 @RequestMapping("/User")
+@Slf4j
 public class TUserController {
 @Autowired
 ITUserService obj;
@@ -64,11 +66,20 @@ public RestResponse<?> updateUser(@RequestBody @Valid TUser user) {
  } else return new RestResponse<>(0, "更新失败", null);
 }
 
-@PostMapping("/dologin")
-public String dologin(
- @RequestBody User user
-) {
- System.out.println("---####--enter dologin-------");
- return user.getUsername() + ":" + user.getPassword();
+@GetMapping("/listTest")
+public List<TUser> listTest(Map<String, Object> p) {
+ return obj.listTest(p);
 }
+
+@GetMapping("/testWrapper")
+public List<TUser> tesWrapper() {
+ QueryWrapper w = new QueryWrapper();
+ //
+ w.eq("name", "aa");
+
+ log.info("=============================");
+ log.info(w.getSqlSegment());
+ return obj.testWrapper(w);
+}
+
 }
