@@ -20,9 +20,9 @@ static String URL = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=tr
 static String USER = "root";
 static String PASSWORD = "password";
 static String PROJECT_PATH = "/home/whr/idea/boot-mult/boot-temp";
-static String PARENT_PACKAGE = "com.heng";
+static String PARENT_PACKAGE = "com.wei";
 static String MAPPER_PATH = "/src/main/resources/mapper/";
-static String TABLE_NAME = "dept";
+static String TABLE_NAME = "employee";
 
 /**
  * <p>
