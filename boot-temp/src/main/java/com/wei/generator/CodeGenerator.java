@@ -61,10 +61,11 @@ public static void main(String[] args) {
  gc.setBaseResultMap(true);
  // XML columList Node
  gc.setBaseColumnList(true);
+ //
  // 自定义文件命名，注意 %s 会自动填充表实体属性！
  // gc.setMapperName("%sDao");
  // gc.setXmlName("%sDao");
- // gc.setServiceName("MP%sService");
+ gc.setServiceName("%sService");
  // gc.setServiceImplName("%sServiceDiy");
  gc.setControllerName("%sController");
  mpg.setGlobalConfig(gc);
@@ -99,7 +100,7 @@ public static void main(String[] args) {
   public String outputFile(TableInfo tableInfo) {
    // 自定义输入文件名称
    return projectPath + MAPPER_PATH
-    + "/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
+           + "/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
   }
  });
  cfg.setFileOutConfigList(focList);
@@ -107,7 +108,7 @@ public static void main(String[] args) {
 
  //---------模板配置-----------------
  TemplateConfig tc = new TemplateConfig();
- // tc.setController("/resources/controller.java.vm");
+ tc.setController("/src/main/java/resources/templates/controller.java.vm");
  // tc.setService("/templatesMybatis/service.java.vm");
  // tc.setServiceImpl("/templatesMybatis/serviceImpl.java.vm");
  // tc.setEntity("/templatesMybatis/entity.java.vm");
@@ -121,9 +122,9 @@ public static void main(String[] args) {
  strategy.setNaming(NamingStrategy.underline_to_camel);
  strategy.setColumnNaming(NamingStrategy.underline_to_camel);
  //strategy.setSuperEntityClass("com.baomidou.ant.common.BaseEntity");
- //strategy.setEntityLombokModel(true);
+ strategy.setEntityLombokModel(true);
  strategy.setRestControllerStyle(true);
- strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
+ //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
  strategy.setInclude(TABLE_NAME);
  //strategy.setSuperEntityColumns("id");
  //strategy.setControllerMappingHyphenStyle(true);

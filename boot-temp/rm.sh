@@ -1,6 +1,6 @@
-find . -name *Dept*.*
+find . -name *Employee*.*
 
-find . -name *Dept*.* |xargs rm -rf
+find . -name *Employee*.* |xargs rm -rf
 echo "-----rm ok---------------"
 
-find . -name *Dept*.*
+find . -name *Employee*.*
