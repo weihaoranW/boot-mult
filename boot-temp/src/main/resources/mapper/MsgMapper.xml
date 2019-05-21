@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wei.mapper.MsgMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wei.entity.Msg">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="detail" property="detail" />
+        <result column="idBranchSrc" property="idBranchSrc" />
+        <result column="idUser" property="idUser" />
+        <result column="idUserTitle" property="idUserTitle" />
+        <result column="createTime" property="createTime" />
+        <result column="iStatus" property="iStatus" />
+        <result column="pushTime" property="pushTime" />
+        <result column="pushCount" property="pushCount" />
+        <result column="readCount" property="readCount" />
+        <result column="idBranchSrcTitle" property="idBranchSrcTitle" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, detail, idBranchSrc, idUser, idUserTitle, createTime, iStatus, pushTime, pushCount, readCount, idBranchSrcTitle
+    </sql>
+
+</mapper>

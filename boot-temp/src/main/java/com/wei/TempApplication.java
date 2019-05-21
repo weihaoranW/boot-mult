@@ -8,10 +8,10 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @SpringBootApplication
 @MapperScan("com.wei.mapper")
 @ServletComponentScan
-public class ApptestApplication {
+public class TempApplication {
 
 public static void main(String[] args) {
- SpringApplication.run(ApptestApplication.class, args);
+ SpringApplication.run(TempApplication.class, args);
 }
 
 }

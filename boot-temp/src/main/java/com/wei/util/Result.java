@@ -12,12 +12,14 @@ private String msg;
 private T data = null;
 
 public Result(int code, String message, T data) {
+
  this.code = code;
  this.msg = message;
  this.data = data;
 }
 
 public static Result<Long> autoLong(Long l) {
+
  if (l == null) {
   return err(l);
  }
@@ -26,6 +28,7 @@ public static Result<Long> autoLong(Long l) {
 }
 
 public static <TT extends Object> Result autoObj(TT obj) {
+
  if (obj == null) {
   return err(obj);
  }
@@ -35,15 +38,28 @@ public static <TT extends Object> Result autoObj(TT obj) {
 }
 
 public static <TT> Result ok(TT data) {
+
  return new Result<>(OK, "success", data);
 }
 
 public static <TT> Result err(TT data) {
  return new Result<>(ERROR, "error", data);
 }
+public static <TT> Result fail(TT data) {
+ return new Result<>(ERROR, "error", data);
+}
+
+public static Result autoBool(boolean b) {
+ //
+ if (b) {
+  return ok(true);
+ }
+ return err(false);
+}
 
 @Override
 public String toString() {
+
  return "{\"code\":" + code + ",\"msg\":\"" + msg + "\",\"data\":" + data + "}";
 }
 }

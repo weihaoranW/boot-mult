@@ -9,6 +9,7 @@ import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
+import com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +17,14 @@ import java.util.Scanner;
 
 public class CodeGenerator {
 static String AUTHOR = "weihaoran";
-static String URL = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&useSSL=false&characterEncoding=utf8";
+static String URL = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode" +
+                     "=true&useSSL=false&characterEncoding=utf8";
 static String USER = "root";
 static String PASSWORD = "password";
 static String PROJECT_PATH = "/home/whr/idea/boot-mult/boot-temp";
 static String PARENT_PACKAGE = "com.wei";
 static String MAPPER_PATH = "/src/main/resources/mapper/";
-static String TABLE_NAME = "employee";
+static String TABLE_NAME = "msg";
 
 /**
  * <p>
@@ -30,6 +32,7 @@ static String TABLE_NAME = "employee";
  * </p>
  */
 public static String scanner(String tip) {
+
  Scanner scanner = new Scanner(System.in);
  StringBuilder help = new StringBuilder();
  help.append("请输入" + tip + "：");
@@ -108,7 +111,7 @@ public static void main(String[] args) {
 
  //---------模板配置-----------------
  TemplateConfig tc = new TemplateConfig();
- tc.setController("/src/main/java/resources/templates/controller.java.vm");
+ tc.setController("/templates/controller.java.vm");
  // tc.setService("/templatesMybatis/service.java.vm");
  // tc.setServiceImpl("/templatesMybatis/serviceImpl.java.vm");
  // tc.setEntity("/templatesMybatis/entity.java.vm");
@@ -132,6 +135,7 @@ public static void main(String[] args) {
  mpg.setStrategy(strategy);
  //
  mpg.setTemplateEngine(new FreemarkerTemplateEngine());
+ //mpg.setTemplateEngine(new VelocityTemplateEngine());
  mpg.execute();
 }
 }
