@@ -11,6 +11,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -60,7 +61,7 @@ public Result getPost(Map<String, Object> p) {
 
 @PostMapping("/insert")
 @ApiOperation("post方式新增数据")
-public Result insert(Employee data) {
+public Result insert(@RequestBody Employee data) {
  //G.emt("",data);
  //G.emt("",data.getId());
  return Result.ok(obj.save(data));

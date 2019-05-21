@@ -5,7 +5,7 @@ server:
     uri-encoding: UTF-8
 spring:
   jackson:
-    #»òÕýÔòyyyy-MM-dd HH:mm:ss
+    #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yyyy-MM-dd HH:mm:ss
     #date-format: java.text.SimpleDateFormat
     date-format: yyyy-MM-dd hh:mm:ss
     time-zone: GMT+8
@@ -43,9 +43,9 @@ mybatis-plus:
   global-config:
     id-type: 2
     field-strategy: 2
-    db-column-underline: true
+    db-column-underline: false
     refresh-mapper: true
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: false
     cache-enabled: false
 logging:
   level:
