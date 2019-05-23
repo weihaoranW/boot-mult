@@ -1,4 +1,4 @@
-package com.wei.util;
+package com.wei.utils;
 
 import java.io.File;
 import java.lang.reflect.Array;

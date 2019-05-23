@@ -1,4 +1,4 @@
-package com.wei.util;
+package com.wei.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

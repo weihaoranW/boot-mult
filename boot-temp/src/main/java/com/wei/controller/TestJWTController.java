@@ -1,7 +1,7 @@
 package com.wei.controller;
 
-import com.wei.util.jwt.JwtConst;
-import com.wei.util.jwt.JwtToken;
+import com.wei.utils.jwt.JwtConst;
+import com.wei.utils.jwt.JwtToken;
 import io.jsonwebtoken.Jwts;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

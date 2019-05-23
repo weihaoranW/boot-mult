@@ -5,11 +5,15 @@ import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
-import com.baomidou.mybatisplus.generator.config.*;
+import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
+import com.baomidou.mybatisplus.generator.config.FileOutConfig;
+import com.baomidou.mybatisplus.generator.config.GlobalConfig;
+import com.baomidou.mybatisplus.generator.config.PackageConfig;
+import com.baomidou.mybatisplus.generator.config.StrategyConfig;
+import com.baomidou.mybatisplus.generator.config.TemplateConfig;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
-import com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +29,8 @@ static String PROJECT_PATH = "/home/whr/idea/boot-mult/boot-temp";
 static String PARENT_PACKAGE = "com.wei";
 static String MAPPER_PATH = "/src/main/resources/mapper/";
 static String TABLE_NAME = "msg";
+
+static String[] tableNames = new String[]{"msg"};
 
 /**
  * <p>
@@ -47,6 +53,19 @@ public static String scanner(String tip) {
 }
 
 public static void main(String[] args) {
+//
+ for (String tbName : tableNames) {
+  exec(tbName);
+ }
+
+}
+
+public static void exec(String tbName) {
+
+ if (tbName == null || tbName.length() == 0) {
+  return;
+ }
+
  // 代码生成器
  AutoGenerator mpg = new AutoGenerator();
 
@@ -128,7 +147,7 @@ public static void main(String[] args) {
  strategy.setEntityLombokModel(true);
  strategy.setRestControllerStyle(true);
  //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
- strategy.setInclude(TABLE_NAME);
+ strategy.setInclude(tbName);
  //strategy.setSuperEntityColumns("id");
  //strategy.setControllerMappingHyphenStyle(true);
  strategy.setTablePrefix(pc.getModuleName() + "_");
@@ -138,4 +157,5 @@ public static void main(String[] args) {
  //mpg.setTemplateEngine(new VelocityTemplateEngine());
  mpg.execute();
 }
+
 }

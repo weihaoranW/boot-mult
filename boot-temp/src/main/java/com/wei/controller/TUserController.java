@@ -3,7 +3,7 @@ package com.wei.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.wei.entity.TUser;
 import com.wei.service.ITUserService;
-import com.wei.util.Result;
+import com.wei.utils.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

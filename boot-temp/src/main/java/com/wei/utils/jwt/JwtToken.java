@@ -1,4 +1,4 @@
-package com.wei.util.jwt;
+package com.wei.utils.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

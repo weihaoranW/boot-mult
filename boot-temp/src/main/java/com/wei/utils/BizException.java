@@ -1,4 +1,4 @@
-package com.wei.util;
+package com.wei.utils;
 
 /**
  * 业务异常基类，所有业务异常都必须继承于此异常
