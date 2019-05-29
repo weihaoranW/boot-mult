@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048c7a4b-8786-40e3-8db3-ca310b64d636" name="Default Changelist" comment="Merge branch 'master' of https://github.com/weihaoranW/boot-mult&#10;&#10;# Conflicts:&#10;#&#9;boot-redis-mq/src/main/java/com/wei/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/TempApplication.java&#10;#&#9;boot-temp/src/main/java/com/wei/Swagger2.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtAuthenticationFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtLoginFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/service/jwt/JwtUserService.java" />
+    <list default="true" id="048c7a4b-8786-40e3-8db3-ca310b64d636" name="Default Changelist" comment="Merge branch 'master' of https://github.com/weihaoranW/boot-mult&#10;&#10;# Conflicts:&#10;#&#9;boot-redis-mq/src/main/java/com/wei/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/TempApplication.java&#10;#&#9;boot-temp/src/main/java/com/wei/Swagger2.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtAuthenticationFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtLoginFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/service/jwt/JwtUserService.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot-temp/target/" />
     <ignored path="$PROJECT_DIR$/boot-rabbit/target/" />
@@ -18,16 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+            <state relative-caret-position="236">
+              <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -68,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQReceiver.java" />
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/ApptestApplication.java" />
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQConfig.java" />
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/controller/MessageController.java" />
@@ -119,6 +125,7 @@
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQSender.java" />
         <option value="$PROJECT_DIR$/boot-pg/src/test/java/com/wei/ApptestApplicationTests.java" />
         <option value="$PROJECT_DIR$/boot-pg/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -579,13 +586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        <state relative-caret-position="236">
+          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
