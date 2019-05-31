@@ -21,16 +21,16 @@ import java.util.Scanner;
 
 public class CodeGenerator {
 static String AUTHOR = "weihaoran";
-static String URL = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode" +
-                     "=true&useSSL=false&characterEncoding=utf8";
-static String USER = "root";
+static String URL = "jdbc:postgresql://127.0.0.1:5432/postgres" +
+                     "?connect_timeout=10";
+static String USER = "postgres";
 static String PASSWORD = "password";
-static String PROJECT_PATH = "/home/whr/idea/boot-mult/boot-temp";
+static String PROJECT_PATH = "/home/whr/idea/boot-mult/boot-pg";
 static String PARENT_PACKAGE = "com.wei";
 static String MAPPER_PATH = "/src/main/resources/mapper/";
 static String TABLE_NAME = "msg";
 
-static String[] tableNames = new String[]{"msg"};
+static String[] tableNames = new String[]{"test"};
 
 /**
  * <p>
@@ -96,7 +96,8 @@ public static void exec(String tbName) {
  DataSourceConfig dsc = new DataSourceConfig();
  dsc.setUrl(URL);
  // dsc.setSchemaName("public");
- dsc.setDriverName("com.mysql.cj.jdbc.Driver");
+ //dsc.setDriverName("com.mysql.cj.jdbc.Driver");
+ dsc.setDriverName("org.postgresql.Driver");
  dsc.setUsername(USER);
  dsc.setPassword(PASSWORD);
  mpg.setDataSource(dsc);

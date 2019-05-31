@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048c7a4b-8786-40e3-8db3-ca310b64d636" name="Default Changelist" comment="Merge branch 'master' of https://github.com/weihaoranW/boot-mult&#10;&#10;# Conflicts:&#10;#&#9;boot-redis-mq/src/main/java/com/wei/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/TempApplication.java&#10;#&#9;boot-temp/src/main/java/com/wei/Swagger2.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtAuthenticationFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtLoginFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/service/jwt/JwtUserService.java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/AreaallMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/MsgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/TUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/ThirdJarTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/filter/XFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/BizException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/G.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/XBind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/jwt/JwtConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/jwt/JwtToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third-test/src/main/resources/logback-spring.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot-temp/target/" />
     <ignored path="$PROJECT_DIR$/boot-rabbit/target/" />
     <ignored path="$PROJECT_DIR$/boot-redis-mq/target/" />
     <ignored path="$PROJECT_DIR$/boot-redis/target/" />
+    <ignored path="$PROJECT_DIR$/boot-pg/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +46,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -33,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -63,10 +106,17 @@
       <find>contro</find>
       <find>mysql</find>
       <find>insert</find>
-      <find>TABLE_NAME</find>
       <find>tableNames</find>
       <find>del</find>
       <find>dept</find>
+      <find>p9ost</find>
+      <find>post</find>
+      <find>fast</find>
+      <find>jpa</find>
+      <find>dual</find>
+      <find>TABLE_NAME</find>
+      <find>temp</find>
+      <find>boot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,10 +125,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/ApptestApplication.java" />
-        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQConfig.java" />
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/java/com/wei/demo/DemoApplication.java" />
@@ -126,10 +173,19 @@
         <option value="$PROJECT_DIR$/boot-pg/src/test/java/com/wei/ApptestApplicationTests.java" />
         <option value="$PROJECT_DIR$/boot-pg/pom.xml" />
         <option value="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/data/mvn" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -190,7 +246,68 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
@@ -199,10 +316,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +330,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556892303591" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/boot-rabbit/src/main/java/com/wei" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -246,8 +359,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CodeGenerator (1)">
+    <configuration name="CodeGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.generator.CodeGenerator" />
+      <module name="boot-pg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wei.generator.CodeGenerator" />
       <module name="boot-temp" />
       <extension name="coverage">
@@ -262,7 +388,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="Application.CodeGenerator (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +419,7 @@
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.30409357" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3114035" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -301,10 +427,10 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.38975155" />
-      <window_info active="true" anchor="bottom" id="Messages" order="1" visible="true" weight="0.22739361" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.22739361" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.7851038" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.72424895" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.7233502" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -323,97 +449,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info id="UI Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30409357" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Learn" order="5" weight="0.32966226" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.38975155" />
-      <window_info active="true" anchor="bottom" id="Messages" order="1" visible="true" weight="0.22739361" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.7851038" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.72424895" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.49414518" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32845744" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
-      <window_info anchor="right" id="RestServices" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Key Promoter X" order="9" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.1/mybatis-plus-annotation-3.1.1.jar!/com/baomidou/mybatisplus/annotation/TableField.class" />
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/filter/XFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/AreaallMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Areaall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/TestJWTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/TUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/AreaallServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/TUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/engine/AbstractTemplateEngine.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class" />
     <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/AreaallService.java">
@@ -541,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/third-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -586,17 +616,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/mapper/TestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/entity/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>

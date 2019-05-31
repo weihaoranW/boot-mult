@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-rabbit" />
         <module name="boot-redis" />
         <module name="boot-temp" />
-        <module name="boot-rabbit" />
+        <module name="boot-pg" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-mult" target="1.5" />
+      <module name="boot-pg" target="1.8" />
       <module name="boot-rabbit" target="1.8" />
       <module name="boot-redis" target="1.8" />
       <module name="boot-redis-mq" target="1.8" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-pg" options="-parameters" />
       <module name="boot-rabbit" options="-parameters" />
       <module name="boot-redis" options="-parameters" />
       <module name="boot-redis-mq" options="-parameters" />

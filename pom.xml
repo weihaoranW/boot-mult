@@ -16,12 +16,9 @@
 
  <modules>
   <module>boot-temp</module>
-  <module>springboot-jwt</module>
+  <module>boot-pg</module>
   <module>boot-rabbit</module>
-  <module>boot-redis-mq</module>
   <module>boot-redis</module>
-  <!--<module>mybatis-maven-plugin</module>-->
-
  </modules>
 
 </project>
