@@ -478,6 +478,45 @@ public static String keyPrefix(String... lst) {
  return s;
 }
 
+public static Long get_Long_of_map(Map<String, Object> map,
+                                   String key, Long default_value) {
+ if (map == null) {
+  return default_value;
+ }
+ // ----------------------------------------------------
+ Object obj = map.get(key);
+ if (obj instanceof Long) {
+  return (Long) obj;
+ }
+ try {
+  return Long.parseLong(obj.toString());
+ } catch (Exception ee) {
+  return default_value;
+ }
+
+}
+
+public static Integer get_Integer_of_map(Map<String, Object> map,
+                                         String key, Integer default_value) {
+ if (map == null) {
+  return default_value;
+ }
+ // ----------------------------------------------------
+ Object obj = map.get(key);
+ if (obj instanceof Integer) {
+  return (Integer) obj;
+ }
+// if (obj instanceof Long) {
+//  return ((Long) obj).intValue();
+// }
+ try {
+  return Integer.parseInt(obj.toString());
+ } catch (Exception ee) {
+  return default_value;
+ }
+
+}
+
 public static class N {
 
  public static float to_float(BigDecimal d) {
@@ -1147,15 +1186,6 @@ public static BigDecimal decimal_dec(BigDecimal a_left, BigDecimal b_right) {
 
 public static BigDecimal d_dec(BigDecimal a_left, BigDecimal b_right) {
  return decimal_dec(a_left, b_right);
-}
-
-public static Integer get_Integer_of_map(Map<String, Object> m,
-                                         String key, Integer default_value) {
- Integer i = get_Integer_of_map(m, key);
- if (i == null) {
-  return default_value;
- }
- return i;
 }
 
 public static Integer get_Integer_of_map(Map<String, Object> map,

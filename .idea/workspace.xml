@@ -2,32 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048c7a4b-8786-40e3-8db3-ca310b64d636" name="Default Changelist" comment="Merge branch 'master' of https://github.com/weihaoranW/boot-mult&#10;&#10;# Conflicts:&#10;#&#9;boot-redis-mq/src/main/java/com/wei/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/ApptestApplication.java&#10;#&#9;boot-temp/src/main/java/com/heng/TempApplication.java&#10;#&#9;boot-temp/src/main/java/com/wei/Swagger2.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtAuthenticationFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/filter/JwtLoginFilter.java&#10;#&#9;boot-temp/src/main/java/com/wei/service/jwt/JwtUserService.java">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/config/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-pg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/AreaallMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/MsgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/resources/mapper/TUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/ThirdJarTestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/filter/XFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/BizException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/G.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/XBind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/jwt/JwtConst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/java/com/wei/utils/jwt/JwtToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third-test/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/utils/G.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/utils/G.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-temp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/MsgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/TUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Areaall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/TUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/AreaallMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/MsgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/TUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/AreaallService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/ITUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/MsgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/AreaallServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/MsgServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/TUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-temp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/resources/mapper/AreaallMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/resources/mapper/MsgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-temp/src/main/resources/mapper/TUserMapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/boot-temp/target/" />
@@ -45,39 +51,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="571">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -103,20 +82,20 @@
       <find>velocity</find>
       <find>lomb</find>
       <find>Entity</find>
-      <find>contro</find>
+      <find>page</find>
+      <find>dialo</find>
       <find>mysql</find>
-      <find>insert</find>
-      <find>tableNames</find>
-      <find>del</find>
-      <find>dept</find>
-      <find>p9ost</find>
       <find>post</find>
-      <find>fast</find>
-      <find>jpa</find>
-      <find>dual</find>
-      <find>TABLE_NAME</find>
-      <find>temp</find>
-      <find>boot</find>
+      <find>get_in</find>
+      <find>get_lon</find>
+      <find>get_Long</find>
+      <find>get_long_</find>
+      <find>_of_ma</find>
+      <find>get_int</find>
+      <find>get_Integer_of_map</find>
+      <find>get_integer_of_map</find>
+      <find>_of_map</find>
+      <find>get_long_of</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,7 +104,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/test/java/com/wei/ApptestApplicationTests.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/Swagger2.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/common/R.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQReceiver.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQSender.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/ApptestApplication.java" />
+        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQConfig.java" />
         <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/java/com/wei/demo/DemoApplication.java" />
@@ -148,51 +137,35 @@
         <option value="$PROJECT_DIR$/boot-redis/src/main/java/com/wei/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/java/com/wei/redis/utils/RedisUtil.java" />
         <option value="$PROJECT_DIR$/boot-redis/src/main/java/com/wei/entity/UserTest.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/filter/XFilter.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/RestResponse.java" />
         <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/ApptestApplication.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/TempApplication.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Areaall.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Msg.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/Result.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/G.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/XBind.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/BizException.java" />
-        <option value="$PROJECT_DIR$/boot-temp/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Employee.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/filter/XFilter.java" />
         <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/generator/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/RestResponse.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/Result.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/MsgService.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/MsgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Msg.java" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot-temp/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/MsgController.java" />
-        <option value="$PROJECT_DIR$/boot-temp/src/main/resources/templates/controller.java.vm.ftl" />
-        <option value="$PROJECT_DIR$/temp-common/pom.xml" />
-        <option value="$PROJECT_DIR$/third-test/pom.xml" />
-        <option value="$PROJECT_DIR$/third-test/src/main/java/com/wei/TempApplication.java" />
-        <option value="$PROJECT_DIR$/third-test/src/main/java/com/wei/ThirdJarTestApplication.java" />
-        <option value="$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQSender.java" />
-        <option value="$PROJECT_DIR$/boot-pg/src/test/java/com/wei/ApptestApplicationTests.java" />
-        <option value="$PROJECT_DIR$/boot-pg/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-pg/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/boot-pg/src/main/java/com/wei/utils/G.java" />
+        <option value="$PROJECT_DIR$/boot-pg/pom.xml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="/data/mvn" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="10" />
     <option name="y" value="34" />
     <option name="width" value="1590" />
@@ -206,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,73 +230,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot-mult" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot-mult" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-pg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,12 +248,9 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556892303591" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/boot-rabbit/src/main/java/com/wei" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wei.util" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wei" />
       <recent name="com.wei.common" />
@@ -359,21 +274,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeGenerator (1)">
-    <configuration name="CodeGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.generator.CodeGenerator" />
-      <module name="boot-pg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wei.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wei.generator.CodeGenerator" />
       <module name="boot-temp" />
       <extension name="coverage">
@@ -388,7 +290,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodeGenerator (1)" />
+        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -405,21 +307,12 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-49" width="1440" height="949" extended-state="0" />
+    <frame x="0" y="-49" width="1440" height="949" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3114035" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32452276" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -427,16 +320,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.38975155" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.22739361" />
+      <window_info anchor="bottom" id="Messages" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.7851038" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.7233502" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.56119794" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.49414518" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32845744" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.4934896" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
@@ -447,59 +340,141 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32452276" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Learn" order="5" weight="0.32966226" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.38975155" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.7851038" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.56119794" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.4934896" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
+      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/engine/AbstractTemplateEngine.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class" />
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/AreaallService.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/heng/TempApplication.java" />
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/templates/controller.java.vm" />
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/TUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="380">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/MsgService.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/ApptestApplication.java" />
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/mapper/TUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="152">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Msg.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1558">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="152">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/controller.java.ftl" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/mapper.xml.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/serviceImpl.java.ftl" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class" />
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/utils/BizException.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/filter/XFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1824">
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="113">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/utils/G.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="340" column="24" selection-start-line="340" selection-start-column="12" selection-end-line="340" selection-end-column="24" />
+        <state relative-caret-position="418">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/config/GlobalConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/config/TemplateConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/ITUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/Result.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/util/Result.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class" />
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/utils/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -510,189 +485,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/utils/XBind.java">
+    <entry file="jar:///usr/java/jdk/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.1/mybatis-plus-annotation-3.1.1.jar!/com/baomidou/mybatisplus/annotation/TableField.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="600">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/controller.java.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/service.java.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/serviceImpl.java.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/entity.java.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/templates/entity.kt.vm" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.1/mybatis-plus-generator-3.1.1.jar!/com/baomidou/mybatisplus/generator/config/TemplateConfig.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/Api.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="418">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="333">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getPost#0;class#EmployeeController#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/MsgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/generator/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/templates/controller.java.vm.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp-common/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/boot-temp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-jwt/src/main/java/com/moefor/demo/springboot_jwt/controller/IndexController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-jwt/src/main/java/com/moefor/demo/springboot_jwt/filter/JwtLoginFilter.java" />
-    <entry file="file://$PROJECT_DIR$/boot-common" />
-    <entry file="file://$PROJECT_DIR$/boot-redis-mq/src/main/java/com/wei/mq/MQSender.java" />
-    <entry file="file://$PROJECT_DIR$/third-test/src/main/java/com/wei/ThirdJarTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/TempApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/test/java/com/wei/ApptestApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/generator/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="384">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/generator/CodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/entity/Msg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="532">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/mapper/TestMapper.xml">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/mapper/MsgMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="352">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/service/impl/TestServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="549">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/service/TestService.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/impl/MsgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="494">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/mapper/TestMapper.java">
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/service/MsgService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="456">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/TempApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="129" column="2" selection-start-line="129" selection-start-column="2" selection-end-line="129" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/controller/MsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="101" column="3" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/parser/SqlParserHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="55" column="2" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/parser/ISqlParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/entity/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="391">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-temp/src/main/java/com/wei/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1.jar!/META-INF/maven/org.mybatis/mybatis-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/type/Alias.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/builder/xml/mybatis-mapper.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="661" lean-forward="true" selection-start-line="661" selection-end-line="661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/plugins/PaginationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="215" column="34" lean-forward="true" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/utils/G.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="484" column="1" selection-start-line="484" selection-start-column="1" selection-end-line="484" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-pg/src/main/java/com/wei/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state>
+          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-pg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>

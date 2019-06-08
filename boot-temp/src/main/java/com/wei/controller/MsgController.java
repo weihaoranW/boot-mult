@@ -1,6 +1,5 @@
 package com.wei.controller;
 
-
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -30,9 +29,6 @@ import com.wei.mapper.MsgMapper;
 import com.wei.service.MsgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-
-
-
 @RestController
 @RequestMapping("/Msg")
 @Api("")
@@ -43,16 +39,16 @@ private MsgService obj;
 
 @GetMapping("/get")
 @ApiOperation("get方式按id获取数据")
-public Result get(Long id){
-   // table.entityPath   msg
-   // entity:            Msg
-   // table.serviceName: MsgService
-   // com.wei.entity.Msg;
-   // com.wei.mapper.MsgMapper;
-   // com.wei.service.MsgService;
-   // com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+public Result get(Long id) {
+ // table.entityPath   msg
+ // entity:            Msg
+ // table.serviceName: MsgService
+ // com.wei.entity.Msg;
+ // com.wei.mapper.MsgMapper;
+ // com.wei.service.MsgService;
+ // com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-   return Result.autoObj(obj.getById(id));
+ return Result.autoObj(obj.getById(id));
 }
 
 @GetMapping("/del")
@@ -62,12 +58,11 @@ public Result del(@RequestParam("id") Long id) {
  return Result.autoBool(obj.removeById(id));
 }
 
-
 @PostMapping("/insert")
 @ApiOperation("post方式新增数据")
 public Result insert(@RequestBody Msg data) {
-   // entity:            Msg
-   // table.serviceName: MsgService
+ // entity:            Msg
+ // table.serviceName: MsgService
  //G.emt("",data);
  //G.emt("",data.getId());
  return Result.ok(obj.save(data));
@@ -102,6 +97,10 @@ public Result listPage(@RequestBody Map<String, Object> p) {
  //map 2 wrapper
  QueryWrapper<Msg> wr = new QueryWrapper<>();
  for (String key : p.keySet()) {
+  if (G.in(key, "pageSize", "pageNo")) {
+   continue;
+  }
+
   wr.eq(key, p.get(key));
  }
 

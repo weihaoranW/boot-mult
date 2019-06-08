@@ -86,19 +86,26 @@ public Result list(@RequestBody Map<String, Object> p) {
 public Result listPage(@RequestBody Map<String, Object> p) {
  //G.emt("",p);
  //G.emt("",);
- int pageNo = G.get_Integer_of_map(p, "pageNo", 1);
- int pageSize = G.get_Integer_of_map(p, "pageSize",
-  10);
+ long pageNo = G.get_Long_of_map(p, "pageNo", 1L);
+ long pageSize = G.get_Long_of_map(p, "pageSize",
+  10L);
 
  //map 2 wrapper
  QueryWrapper<Test> wr = new QueryWrapper<>();
  for (String key : p.keySet()) {
+  if (G.in(key, "pageNo", "pageSize")) {
+   continue;
+  }
   wr.eq(key, p.get(key));
  }
 
  //
  IPage<Test> page = new Page<>(pageNo, pageSize);
- return Result.ok(obj.page(page, wr));
+// page.setSize(5);
+// page.setCurrent(1);
+
+ //return Result.ok(obj.page(page, wr));
+ return Result.ok(obj.page(page));
 }
 
 }

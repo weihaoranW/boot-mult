@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="boot-rabbit" />
-        <module name="boot-redis" />
         <module name="boot-temp" />
         <module name="boot-pg" />
+      </profile>
+      <profile name="Annotation profile for boot-mult" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-redis" />
+        <module name="boot-rabbit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
